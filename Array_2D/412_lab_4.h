@@ -9,5 +9,7 @@
 #define _12_lab_4_h
 
 #include <stdio.h>
+//git init
+
 
 #endif /* _12_lab_4_h */

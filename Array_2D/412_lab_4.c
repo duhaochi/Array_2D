@@ -48,9 +48,9 @@ void openFile(char const *name, words *wordStruct){
 
 void readWordsFile(FILE *name, words *wordStruct){
     int num;
-    char *word = malloc(sizeof(char *));
+    //char *word = malloc(sizeof(char *));
     fscanf(name, "%d", &num);
     printf("%d\n", num);
     wordStruct->array = arrayNew(num, sizeof(void*));
-    char *str = arrayGet(wordStruct->array, 0);
+    //char *str = arrayGet(wordStruct->array, 0);
 }
